@@ -4,8 +4,8 @@
 
 In this demo, we show an end-to-end workflow of rapids `dask-cudf` + `dask-glm` `LogisticRegression` on mutliple GPUs. 
 Experiments are done on a `DGX-1` with `8xGPUs` and `40-core CPUs`. 
-With the HIGGS dataset, the GPU solution achieves **14x speedup** over CPU using the lbfgs solver. 
-To get a more comprehensive speedup measurement, we vary the size of random synthetic data and the GPU solution achieves up to **27x speedup** over CPU.
+With the HIGGS dataset, the GPU solution achieves **14x speedup** over CPU using the **lbfgs** solver. 
+To get a more comprehensive speedup measurement, we run `dask-glm` on vared sizes of random synthetic data and the GPU solution achieves up to **27x speedup** over CPU.
 
 ### Background
 
